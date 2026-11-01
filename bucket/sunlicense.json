@@ -1,0 +1,36 @@
+{
+  "version": "0.6.0",
+  "description": "Manage SunLicense licenses, products and customers from your terminal",
+  "homepage": "https://docs.sunlicense.com/cli/",
+  "license": "Proprietary",
+  "notes": "Next: sunlicense login",
+  "architecture": {
+    "64bit": {
+      "url": "https://registry.npmjs.org/@sunlicense/cli-win32-x64/-/cli-win32-x64-0.6.0.tgz",
+      "hash": "6f29afe21d927fb563a8f06b9a0d2dd0368d375b8d7fb54b8a298a91990216e4",
+      "extract_dir": "package/bin"
+    },
+    "arm64": {
+      "url": "https://registry.npmjs.org/@sunlicense/cli-win32-arm64/-/cli-win32-arm64-0.6.0.tgz",
+      "hash": "2b4f908f79b538e6132a68f3cf39b9e609bb0ff05622574bb3bb9563283239d3",
+      "extract_dir": "package/bin"
+    }
+  },
+  "bin": "sunlicense.exe",
+  "checkver": {
+    "url": "https://registry.npmjs.org/@sunlicense/cli/latest",
+    "jsonpath": "$.version"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://registry.npmjs.org/@sunlicense/cli-win32-x64/-/cli-win32-x64-$version.tgz",
+        "extract_dir": "package/bin"
+      },
+      "arm64": {
+        "url": "https://registry.npmjs.org/@sunlicense/cli-win32-arm64/-/cli-win32-arm64-$version.tgz",
+        "extract_dir": "package/bin"
+      }
+    }
+  }
+}

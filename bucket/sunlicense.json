@@ -1,18 +1,18 @@
 {
-  "version": "0.7.1",
+  "version": "0.8.0",
   "description": "Manage SunLicense licenses, products and customers from your terminal",
   "homepage": "https://docs.sunlicense.com/cli/",
   "license": "Proprietary",
   "notes": "Next: sunlicense login",
   "architecture": {
     "64bit": {
-      "url": "https://registry.npmjs.org/@sunlicense/cli-win32-x64/-/cli-win32-x64-0.7.1.tgz",
-      "hash": "90928cfcf3b25dd87d4208eee75adf86b4b3929ac1d3b8d296f91a82f997b3cb",
+      "url": "https://registry.npmjs.org/@sunlicense/cli-win32-x64/-/cli-win32-x64-0.8.0.tgz",
+      "hash": "19e1d63b61ab807466eaf01a2f64de9812bf34c89ec2d56b27ee959176bf4c22",
       "extract_dir": "package/bin"
     },
     "arm64": {
-      "url": "https://registry.npmjs.org/@sunlicense/cli-win32-arm64/-/cli-win32-arm64-0.7.1.tgz",
-      "hash": "786082b18c85d26c73da7970b4f1e7ad9fbeeccad5ebd85815a6ef4b7d8ec88a",
+      "url": "https://registry.npmjs.org/@sunlicense/cli-win32-arm64/-/cli-win32-arm64-0.8.0.tgz",
+      "hash": "9bdb7ad37ca1e9ba062d471b3e3cf372563104ad91925343abade40295a39a12",
       "extract_dir": "package/bin"
     }
   },
